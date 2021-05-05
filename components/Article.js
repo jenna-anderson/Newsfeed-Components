@@ -143,6 +143,7 @@ function articleMaker ({title, date, firstParagraph, secondParagraph, thirdParag
   articleParagraph1.textContent = firstParagraph;
   articleParagraph2.textContent = secondParagraph;
   articleParagraph3.textContent = thirdParagraph;
+  expandButton.textContent = '+';
 
 /*
   Step 2: Still inside `articleMaker`, add an event listener to the span.expandButton.

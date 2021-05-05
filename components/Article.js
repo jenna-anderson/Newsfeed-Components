@@ -86,6 +86,20 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: 'Chuck Norris Ipsum',
+    date: 'May 5th, 2021',
+    firstParagraph: 'Chuck Norris can slam a revolving door. Chuck Norris can have his cake and eat it, too. Chuck Norris is currently suing NBC, claiming Law and Order are trademarked names for his left and right legs Chuck Norris can slice meat so thin is only has one side, When Chuck Norris sends in his taxes, he sends blank forms and includes only a picture of himself, crouched and ready to attack. Chuck Norris has not had to pay taxes, ever Chuck Norris is the only man to ever defeat a brick wall in a game of tennis. Chuck Norris looks gift horses in the mouth. Chuck Norris doesn’t wear a watch. HE decides what time it is, The Great Wall of China was originally created to keep Chuck Norris out. It failed miserably.',
+    secondParagraph: 'Chuck Norris will attain statehood in 2009. His state flower will be the Magnolia Chuck Norris has two speeds. Walk, and Kill Chuck Norris can win a game of Connect Four in only three moves If you spell Chuck Norris in Scrabble, you win. Forever. The leading causes of death in the United States are: 1. Heart Disease 2. Chuck Norris 3. Cancer.',
+    thirdParagraph: 'The chief export of Chuck Norris is Pain Chuck Norris is the reason you turn a light on when you enter a room. There is no theory of evolution. Just a list of animals Chuck Norris allows to live Chuck Norris received an electric shock, the result was Tron Chuck Norris is the reason why Waldo is hiding Police label anyone attacking Chuck Norris as a Code 45-11… a suicide, Fool me once, shame on you. Fool Chuck Norris once and he will roundhouse you in the face.'
+  },
+  {
+    title: 'Cosmos Ipsum',
+    date: 'May 5, 2021',
+    firstParagraph: 'The only home we’ve ever known preserve and cherish that pale blue dot. Cosmic fugue, circumnavigated descended from astronomers decipherment, permanence of the stars science Euclid muse about! A still more glorious dawn awaits Euclid, tendrils of gossamer clouds extraplanetary muse about vastness is bearable only through love Cambrian explosion! Extraordinary claims require extraordinary evidence of brilliant syntheses? Take root and flourish, stirred by starlight billions upon billions Drake Equation.',
+    secondParagraph: 'Billions upon billions! Globular star cluster tendrils of gossamer clouds Vangelis dream of the mind’s eye network of wormholes a very small stage in a vast cosmic arena worldlets take root and flourish stirred by starlight, Flatland concept of the number one. Dispassionate extraterrestrial observer of brilliant syntheses not a sunrise but a galaxyrise intelligent beings, rings of Uranus tingling of the spine shores of the cosmic ocean gathered by gravity. Emerged into consciousness encyclopaedia galactica rich in heavy atoms, billions upon billions are creatures of the cosmos, the ash of stellar alchemy consciousness tingling of the spine ship of the imagination.',
+    thirdParagraph: 'Explorations star stuff harvesting star light ship of the imagination birth dispassionate extraterrestrial observer trillion, rings of Uranus Apollonius of Perga? Rich in mystery paroxysm of global death, take root and flourish a very small stage in a vast cosmic arena rich in heavy atoms how far away, rich in heavy atoms, stirred by starlight encyclopaedia galactica tingling of the spine, Jean-FranÃƒÂ§ois Champollion star stuff harvesting star light how far away, Orion’s sword, vanquish the impossible as a patch of light, concept of the number one extraordinary claims require extraordinary evidence as a patch of light billions upon billions courage of our questions circumnavigated.'
   }
 ];
 
@@ -152,7 +166,6 @@ return articleContainer;
   Step 4: Outside your function now, loop over the data. At each iteration you'll use your component
   to create a div.article element and append it to the DOM inside div.articles (see index.html).
 */
-debugger;
 const articles = document.querySelector('div.articles');
 
 const articleList = data.map((article) => {
@@ -169,4 +182,4 @@ articleList.forEach((article) => {
 */
 
 
-console.log(articleMaker({title: 'test title', date: 'date', firstParagraph: 'firstParagraph', secondParagraph: 'secondParagraph', thirdParagraph: 'thirdParagraph'}));
+// console.log(articleMaker({title: 'test title', date: 'date', firstParagraph: 'firstParagraph', secondParagraph: 'secondParagraph', thirdParagraph: 'thirdParagraph'}));

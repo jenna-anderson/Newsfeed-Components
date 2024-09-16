@@ -16,6 +16,18 @@
   border-left: none;
   border-bottom: none;
   z-index: 2; /* This set the layer level of the element, it has precendence over initial level of 1*/
+  
+  
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(-350px, 0);
+  }
+  
+  100% {
+    transform: translate(0, 0);
+  }
 }
 
 .menu ul li{
@@ -27,4 +39,21 @@
 
 .menu--open {
   display: block;
+  animation: nudge 1s linear;
 }
+
+.menu--close {
+  display: block;
+  animation: nudge2 1s linear;
+}
+
+@keyframes nudge2 {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  100% {
+    transform: translate(-350px, 0);
+  }
+}
+
